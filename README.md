@@ -17,7 +17,8 @@ My first AI-powered full-stack application built over the weekend using React, F
 - Flask
 - Python
 - Ollama
-- Llama 3
+- Llama 3 (Decided to drop because it was very heavy for my Macbook)
+- Phi3 (Curently Using)
 
 ---
 
@@ -35,7 +36,9 @@ This project helped me learn:
 
 ## Project Screenshot
 
-See my complete story at https://medium.com/p/4c9fa68e7184
+![Updated UI](screenshots/final-result.jpg)
+
+See my complete story at https://medium.com/@muhammadarslannawaz
 
 ---
 
