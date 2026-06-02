@@ -47,6 +47,11 @@ SQL Query:
         )
 
         result = response.json()
+        print("OPENROUTER RESPONSE:", result)
+        if "choices" not in result:
+            return jsonify({
+        "error": result
+    }), 500
 
         explanation = result["choices"][0]["message"]["content"]
 
@@ -57,9 +62,10 @@ SQL Query:
     except Exception as e:
 
         return jsonify({
-            "error": str(e)
+            "error": str(e),
+            "type": type(e).__name__
         }), 500
-
+    
 
 if __name__ == "__main__":
     app.run(
