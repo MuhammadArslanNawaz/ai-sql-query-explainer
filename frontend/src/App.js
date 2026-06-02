@@ -15,7 +15,7 @@ function App() {
     try {
 
       const response = await fetch(
-        "http://127.0.0.1:5001/explain",
+        "https://ai-sql-query-explainer.railway.app/explain",
         {
           method: "POST",
 
