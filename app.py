@@ -30,7 +30,7 @@ SQL Query:
                 "Content-Type": "application/json"
             },
             json={
-                "model": "google/gemma-3-4b-it:free",
+                "model": "meta-llama/llama-3.1-8b-instruct",
                 "messages": [
                     {
                         "role": "user",
